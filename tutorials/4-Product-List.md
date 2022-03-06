@@ -56,7 +56,7 @@ export default {
 ```
 
 The `export default` is like what we used for the mock data. This component is
-exporting an object, with properties for its `name`  and `props`. The `props`
+exporting an object, with properties for its `name` and `props`. The `props`
 are contained in an object, listing property names and types. Here we are indicating
 that the `ProductList` component has one prop, an array of `products`.
 
@@ -137,7 +137,7 @@ button {
 This style is scoped so it affects only this component.
 
 This uses some flexbox, so if you're still learning take a look at those areas where
-`display` is set to `flex`.  One particular thing to make note of is that the
+`display` is set to `flex`. One particular thing to make note of is that the
 `price` div uses flexbox and then sets `margin-left` to `auto` for the "add to cart"
 button. This makes that button float to the right when everything else is floated left
 by default in the flexbox.

@@ -112,7 +112,7 @@ You should now see a working search box on the home page:
 How does this manage to search as you type? Recall that Vue uses data binding
 to bind the input box with the `searchText` property. Every time the user types
 a letter into the search box, it changes `searchText`. In addition, Vue computed
-properties *automatically* find their dependencies and get re-evaluated if any
+properties _automatically_ find their dependencies and get re-evaluated if any
 of their dependencies change. Since `products()` depends on `searchText`, it runs
 every time `searchText` changes. To top it off, if `searchText` is an empty string,
 the `filter` in `products()` still works because the empty string is present in

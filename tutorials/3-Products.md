@@ -40,7 +40,7 @@ I generated this list of products using [Mockaroo](https://mockaroo.com/).
 Note that the prices and countries of origin are fictional. So we may have some
 interesting combinations in our data!
 
-I downloaded all of the images from Google Images. I was *not* careful about
+I downloaded all of the images from Google Images. I was _not_ careful about
 finding images that are marked as re-usable with [Creative Commons](https://creativecommons.org/)
 licensing. If you're building any kind of real product, you should make sure to
 do that. There are a variety of search engines that get you images with friendly

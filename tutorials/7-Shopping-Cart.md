@@ -3,7 +3,7 @@
 The last step is to build a shopping cart. This is the part you're going to
 do on your own, so you can practice what you've learned. This will require:
 
-* Modifying the "Add to Cart" button so that it adds the product to the cart.
+- Modifying the "Add to Cart" button so that it adds the product to the cart.
 There is already a cart property in the global data object that you can use to
 store an array of products. Don't worry about quantities. We'll just assume that
 users need to add the same product more than once in order to buy multiples.
@@ -16,8 +16,7 @@ users need to add the same product more than once in order to buy multiples.
 
 </details>
 
- 
-* Modifying the menu so that it shows the number of items in the cart. You may
+- Modifying the menu so that it shows the number of items in the cart. You may
 want to use a computed property in App.vue to do this.
 
   <details><summary>click for more tips</summary>
@@ -27,7 +26,7 @@ want to use a computed property in App.vue to do this.
   * The number of items in the cart is currently hard-coded. How would you replace this with a calculation that uses the length of the cart array?
   </details>
 
-* Adding a Cart view that is viewed when the user clicks on the Cart menu item.
+- Adding a Cart view that is viewed when the user clicks on the Cart menu item.
 This view should show all the products in the cart. It should include a Remove
 button to remove items from the cart. It should also show a message when the cart
 is empty. Don't use the `ProductList` here since you won't have an `Add to Cart`
